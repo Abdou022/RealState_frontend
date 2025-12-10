@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Real State</string>
+    <string name="screen1">Apprenez à votre rythme</string>
+    <string name="screen2">Développez vos compétences</string>
+    <string name="screen3">Des cours clairs et structurés</string>
+    <string name="screen1desc">Découvrez des formations conçues pour progresser facilement, où que vous soyez</string>
+    <string name="screen2desc">Inscrivez-vous aux formations qui vous intéressent et faites évoluer votre parcours</string>
+    <string name="screen3desc">Accédez à des contenus détaillés, des vidéos de qualité et des explications simples</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "753834592608",
+    "project_id": "realstate-1cb9c",
+    "storage_bucket": "realstate-1cb9c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753834592608:android:cd8c86f52b6838ee6af605",
+        "android_client_info": {
+          "package_name": "com.poly.realstate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4oznndNPctOXqvH0xmEFoJXGGh74QVec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

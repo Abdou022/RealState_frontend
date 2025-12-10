@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/houseImage"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_home"/>
+
+    <TextView
+        android:id="@+id/houseTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Titre"
+        android:textColor="#2E7D32"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:ellipsize="end"
+        android:maxLines="1"/>
+
+    <TextView
+        android:id="@+id/housePrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="120000 DT"
+        android:textColor="#4CAF50"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/houseAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adresse"
+        android:textSize="12sp"
+        android:ellipsize="end"
+        android:maxLines="1"/>
+
+    <TextView
+        android:id="@+id/houseSurface"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="150 m²"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/houseRooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3 rooms"
+        android:textSize="12sp"/>
+</LinearLayout>

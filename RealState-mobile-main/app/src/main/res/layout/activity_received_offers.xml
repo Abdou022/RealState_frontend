@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/receivedOffersLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".ReceivedOffersActivity">
+
+    <!-- Toolbar simple -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarReceivedOffers"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#2E7D32"
+        app:title="Demandes Reçues"
+        app:titleTextColor="@android:color/white"
+        app:navigationIcon="@drawable/ic_back"
+        android:titleTextColor="@android:color/white" />
+
+    <!-- RecyclerView pour afficher les offres -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/receivedOffersRV"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:clipToPadding="false" />
+
+    <!-- Message vide si aucune offre -->
+    <TextView
+        android:id="@+id/emptyMessageTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aucune offre reçue."
+        android:textColor="@android:color/darker_gray"
+        android:gravity="center"
+        android:visibility="gone"
+        android:padding="16dp"
+        android:textSize="16sp" />
+
+</LinearLayout>

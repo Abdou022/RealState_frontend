@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <!-- Back House -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M8,32 L32,8 L56,32 L56,56 L8,56 Z"/>
+
+    <!-- Front House (slightly shifted right & down) -->
+    <path
+        android:fillColor="#1B5E20"
+        android:pathData="M16,36 L40,12 L60,36 L60,56 L16,56 Z"/>
+
+    <!-- Door for front house -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,44 L40,44 L40,56 L32,56 Z"/>
+
+</vector>

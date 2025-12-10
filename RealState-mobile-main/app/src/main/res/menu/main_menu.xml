@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Page d'acceuil"
+            android:icon="@drawable/ic_home"/>
+
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Profile"
+            android:icon="@drawable/ic_account"/>
+
+        <item
+            android:id="@+id/nav_creehome"
+            android:title="Creation Maisson"
+            android:icon="@drawable/ic_home"/>
+
+        <item
+            android:id="@+id/nav_offres"
+            android:iconTint="#FFF"
+            android:title="Mes Offres"
+            android:icon="@drawable/ic_multyhouses"/>
+
+        <item
+            android:id="@+id/nav_demandes"
+            android:iconTint="#FFF"
+            android:title="Les Demandes"
+            android:icon="@drawable/ic_contract"/>
+
+        <item
+            android:id="@+id/nav_signout"
+            android:title="Quitter"
+            android:icon="@drawable/ic_signout"/>
+    </group>
+</menu>
